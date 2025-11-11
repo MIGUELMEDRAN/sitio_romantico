@@ -21,8 +21,8 @@
   "videos": [
     {
       "id": "vid1",
-      "src": "/media/videos/VIDEO_1.mp4",
-      "poster": "/media/videos/VIDEO_1.jpg",
+      "src": "/media/videos/video1.mp4",
+      "poster": "/media/videos/video1.jpg",
       "title": "Video especial 1"
     }
   ],
