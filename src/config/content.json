@@ -14,22 +14,50 @@
     {
       "id": "ph1",
       "src": "/media/photos/PHOTO_1.jpg",
-      "alt": "Donde empieza el amor verdadero",
       "thumb": "/media/photos/thumbs/PHOTO_1.jpg",
       "title": "Recuerdos juntos",
-      "description": "Pequeños momentos que nos hacen sonreír"
+      "description": "Peque\u00f1os momentos que nos hacen sonre\u00edr"
     },
     {
-  "id": "ph2",
-  "src": "/media/photos/PHOTO_2.jpg",
-  "alt": "Descripción de la foto",
-  "thumb": "/media/photos/thumbs/PHOTO_2.jpg",
-  "title": "Tu título para Grid 2",
-  "description": "Tu descripción para Grid 2"
-}
-
-
-
+      "id": "ph2",
+      "src": "/media/photos/PHOTO_2.jpg",
+      "thumb": "/media/photos/thumbs/PHOTO_2.jpg",
+      "title": "Entre risas y silencios",
+      "description": "Tu abrazo tiene el poder de calmar tormentas y encender estrellas en mi cielo"
+    },
+    {
+      "id": "ph3",
+      "src": "/media/photos/PHOTO_3.jpg",
+      "thumb": "/media/photos/thumbs/PHOTO_3.jpg",
+      "title": "Sin miedo a ser nosotros",
+      "description": "No hay pose m\u00e1s perfecta que la de ser nosotros, reales y felices."
+    }
+  ],
+  "photoCarousel": [
+    {
+      "id": "ph1",
+      "src": "/media/photos/PHOTO_1.jpg",
+      "alt": "Amarte no es un instante, es un viaje sin destino donde cada latido escribe eternidad.",
+      "thumb": "/media/photos/thumbs/PHOTO_1.jpg",
+      "title": "Recuerdos juntos",
+      "description": "Peque\u00f1os momentos que nos hacen sonre\u00edr"
+    },
+    {
+      "id": "ph2",
+      "src": "/media/photos/PHOTO_2.jpg",
+      "alt": "Lo que somos, lo que seremos",
+      "thumb": "/media/photos/thumbs/PHOTO_2.jpg",
+      "title": "Tu t\u00edtulo para Grid 2",
+      "description": "Tu descripci\u00f3n para Grid 2"
+    },
+    {
+      "id": "ph3",
+      "src": "/media/photos/PHOTO_3.jpg",
+      "alt": "Nuestro amor, sin filtros",
+      "thumb": "/media/photos/thumbs/PHOTO_3.jpg",
+      "title": "Sin miedo a ser nosotros",
+      "description": "No hay pose m\u00e1s perfecta que la de ser nosotros, reales y felices."
+    }
   ],
   "videos": [
     {

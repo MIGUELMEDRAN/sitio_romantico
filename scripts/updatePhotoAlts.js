@@ -7,7 +7,7 @@ const contentPath = path.join(repoRoot, 'src', 'config', 'content.json')
 function usage() {
   console.log('Uso: node scripts\\updatePhotoAlts.js <updates.json>')
   console.log('El archivo updates.json debe tener la forma:')
-  console.log('{ "ph1": "Nueva descripción 1", "ph2": "Otra descripción" }')
+  console.log('{ "ph1": "Nueva i 1", "ph2": "Otra descripcffión" }')
 }
 
 async function main() {

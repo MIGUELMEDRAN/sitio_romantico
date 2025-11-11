@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ButterfliesEffect } from '@/components/effects/ButterfliesEffect'
 
 export default function PhotoCarousel() {
-  const photos = content.photos as Photo[]
+  const photos = (content.photoCarousel ?? content.photos) as Photo[]
   const [index, setIndex] = useState(0)
 
   const spawnButterflies = (event: React.MouseEvent) => {
