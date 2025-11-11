@@ -13,48 +13,48 @@
   "photos": [
     {
       "id": "ph1",
-      "src": "/media/photos/foto1.jpg",
-      "thumb": "/media/photos/foto1.jpg",
+      "src": "media/photos/foto1.jpg",
+      "thumb": "media/photos/foto1.jpg",
       "alt": "Tu sonrisa favorita",
       "title": "Tu sonrisa favorita",
       "description": "Ese brillo que solo aparece cuando estamos juntos."
     },
     {
       "id": "ph2",
-      "src": "/media/photos/foto2.jpg",
-      "thumb": "/media/photos/foto2.jpg",
+      "src": "media/photos/foto2.jpg",
+      "thumb": "media/photos/foto2.jpg",
       "alt": "Abrazo en la ciudad",
       "title": "Abrazo en la ciudad",
       "description": "Un abrazo tuyo lo calma todo; incluso el ruido del mundo."
     },
     {
       "id": "ph3",
-      "src": "/media/photos/foto3.jpg",
-      "thumb": "/media/photos/foto3.jpg",
+      "src": "media/photos/foto3.jpg",
+      "thumb": "media/photos/foto3.jpg",
       "alt": "Atardecer frente al mar",
       "title": "Atardecer frente al mar",
       "description": "La luz del atardecer se queda corta junto a tu mirada."
     },
     {
       "id": "ph4",
-      "src": "/media/photos/foto4.jpg",
-      "thumb": "/media/photos/foto4.jpg",
+      "src": "media/photos/foto4.jpg",
+      "thumb": "media/photos/foto4.jpg",
       "alt": "Caminata entre luces",
       "title": "Caminata entre luces",
       "description": "Pasito a pasito, siempre hacia adelante de tu mano."
     },
     {
       "id": "ph5",
-      "src": "/media/photos/foto5.jpg",
-      "thumb": "/media/photos/foto5.jpg",
+      "src": "media/photos/foto5.jpg",
+      "thumb": "media/photos/foto5.jpg",
       "alt": "Brindis por nosotros",
       "title": "Brindis por nosotros",
       "description": "Celebrar la vida contigo es mi tradición favorita."
     },
     {
       "id": "ph6",
-      "src": "/media/photos/foto6.jpg",
-      "thumb": "/media/photos/foto6.jpg",
+      "src": "media/photos/foto6.jpg",
+      "thumb": "media/photos/foto6.jpg",
       "alt": "Beso robado",
       "title": "Beso robado",
       "description": "El mundo se detiene cada vez que te beso."
@@ -63,42 +63,42 @@
   "photoCarousel": [
     {
       "id": "ph1",
-      "src": "/media/photos/foto1.jpg",
+      "src": "media/photos/foto1.jpg",
       "alt": "Tu sonrisa favorita",
       "title": "Tu sonrisa favorita",
       "description": "Ese brillo que solo aparece cuando estamos juntos."
     },
     {
       "id": "ph2",
-      "src": "/media/photos/foto2.jpg",
+      "src": "media/photos/foto2.jpg",
       "alt": "Abrazo en la ciudad",
       "title": "Abrazo en la ciudad",
       "description": "Un abrazo tuyo lo calma todo; incluso el ruido del mundo."
     },
     {
       "id": "ph3",
-      "src": "/media/photos/foto3.jpg",
+      "src": "media/photos/foto3.jpg",
       "alt": "Atardecer frente al mar",
       "title": "Atardecer frente al mar",
       "description": "La luz del atardecer se queda corta junto a tu mirada."
     },
     {
       "id": "ph4",
-      "src": "/media/photos/foto4.jpg",
+      "src": "media/photos/foto4.jpg",
       "alt": "Caminata entre luces",
       "title": "Caminata entre luces",
       "description": "Pasito a pasito, siempre hacia adelante de tu mano."
     },
     {
       "id": "ph5",
-      "src": "/media/photos/foto5.jpg",
+      "src": "media/photos/foto5.jpg",
       "alt": "Brindis por nosotros",
       "title": "Brindis por nosotros",
       "description": "Celebrar la vida contigo es mi tradición favorita."
     },
     {
       "id": "ph6",
-      "src": "/media/photos/foto6.jpg",
+      "src": "media/photos/foto6.jpg",
       "alt": "Beso robado",
       "title": "Beso robado",
       "description": "El mundo se detiene cada vez que te beso."
@@ -107,8 +107,8 @@
   "videos": [
     {
       "id": "vid1",
-      "src": "/media/videos/video1.mp4",
-      "poster": "/media/videos/video1.jpg",
+      "src": "media/videos/video1.mp4",
+      "poster": "media/videos/video1.jpg",
       "title": "Video especial 1"
     }
   ],
