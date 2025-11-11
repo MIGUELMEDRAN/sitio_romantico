@@ -15,20 +15,20 @@ interface MomentsGridProps {
 const defaultMoments: Moment[] = [
   {
     id: 1,
-    title: 'Descripción de la foto 1',
-    description: 'Un momento especial capturado en el tiempo.',
+    title: 'Donde empieza el amor verdadero',
+    description: 'No somos perfectos, pero juntos somos magia. Cada mirada tuya es mi hogar.',
     img: '/media/photos/PHOTO_1.jpg'
   },
   {
     id: 2,
-    title: 'Descripción de la foto 2',
+    title: 'Entre risas y silencios',
     description: 'Otro instante inolvidable.',
     img: '/media/photos/PHOTO_2.jpg'
   },
   {
     id: 3,
-    title: 'Descripción de la foto 3',
-    description: 'Nuestro tercer recuerdo.',
+    title: 'Nuestro amor, sin filtros',
+    description: 'No hay pose más perfecta que la de ser nosotros, reales, felices y juntos.',
     img: '/media/photos/PHOTO_3.jpg'
   }
 ]

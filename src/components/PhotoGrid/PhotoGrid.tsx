@@ -93,7 +93,7 @@ export default function PhotoGrid() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{p.alt}</h3>
                   <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                    Un momento especial capturado en el tiempo.
+                    Un momento especial capturado en el tieddmpo.
                   </p>
 
                   {/* Botones */}
@@ -137,18 +137,20 @@ export default function PhotoGrid() {
           animate={{ opacity: 1, y: 0 }}
           className="bg-white rounded-2xl shadow-xl p-6 text-center"
         >
-          <h3 className="text-xl font-semibold mb-3 text-center">Déjanos un mensaje</h3>
-          <p className="text-sm text-gray-600 mb-4">Mensaje guardado (solo lectura)</p>
+          <h3 className="text-xl font-semibold mb-3 text-center">Carta De Amor</h3>
+          
 
           <div className="bg-gray-50 p-4 rounded-lg border border-gray-100 min-h-[120px] flex items-center justify-center">
             {note ? (
               <p className="text-gray-800 text-center whitespace-pre-wrap">{note}</p>
             ) : (
-              <p className="text-gray-400 italic">No hay mensaje guardado</p>
+              <p className="text-gray-400 italic">Mi amor, no hay palabras que puedan describir todo lo que siento por ti. Te amo con todo mi corazón y me encantas más de lo que imaginas.
+                                                  No soy el mejor hombre, ni perfecto, y quizás no tenga nada especial, pero de algo sí estoy completamente seguro: te amo, y de eso no tengas la menor duda.
+                                                  Me encantas y me vuelves loco, amor. Gracias por estar a mi lado.</p>
             )}
           </div>
 
-          <p className="text-xs text-gray-500 mt-3">Este mensaje no se puede modificar desde aquí.</p>
+          
         </motion.div>
       </div>
 

@@ -5,15 +5,17 @@ type Moment = {
   titulo: string
   texto: string
   img?: string
+
 }
 
 const placeholder = `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%' height='100%' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='Arial' font-size='24'>Sin imagen</text></svg>`
 
 const momentos: Moment[] = [
-  { id: 1, titulo: 'Descripción de la foto 1', texto: 'Un momento especial capturado en el tiempo.', img: '/media/foto1.jpg' },
-  { id: 2, titulo: 'Descripción de la foto 2', texto: 'Otro instante inolvidable.', img: '/media/foto2.jpg' },
-  { id: 3, titulo: 'Descripción de la foto 3', texto: 'Nuestro tercer recuerdo favorito.', img: '/media/foto3.jpg' }
+  { id: 1, titulo: 'Donde empieza el amor verdadero', texto: 'No somos perfectos, pero juntos somos magia. Cada mirada tuya es mi hogar.', img: '/media/foto1.jpg' },
+  { id: 2, titulo: 'Entre risas y silencios', texto: 'Tu abrazo tiene el poder de calmar tormentas y encender estrellas en mi cielo.', img: '/media/foto2.jpg' },
+  { id: 3, titulo: 'Nuestro amor, sin filtros', texto: 'No hay pose mas perfecta que la de ser nosotros, reales, felices y juntos.', img: '/media/foto3.jpg' }
 ]
+
 
 export default function MomentCards(): JSX.Element {
   return (
