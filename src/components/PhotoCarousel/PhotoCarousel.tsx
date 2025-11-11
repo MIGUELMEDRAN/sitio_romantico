@@ -53,11 +53,11 @@ export default function PhotoCarousel() {
               >
                 <div className="bg-white rounded-2xl shadow-2xl overflow-hidden hover:shadow-3xl transition-shadow duration-300">
                   {/* Imagen */}
-                  <div className="relative overflow-hidden h-80 md:h-96 bg-gray-200">
+                  <div className="relative overflow-hidden bg-black flex items-center justify-center min-h-[20rem] md:min-h-[24rem]">
                     <motion.img
                       src={photo.src}
                       alt={photo.alt}
-                      className="w-full h-full object-cover"
+                      className="max-h-[32rem] w-full h-full object-contain"
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.3 }}
                     />

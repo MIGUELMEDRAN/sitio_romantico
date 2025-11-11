@@ -1,13 +1,11 @@
-import { useEffect, useId, useState } from 'react'
+import { useId, useState } from 'react'
 import { DateService } from '@/services/date.service'
-import { StorageService } from '@/services/storage.service'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
 type Props = { onUnlock: () => void }
 
 const ds = new DateService()
-const store = new StorageService()
 
 export default function DateGate({ onUnlock }: Props) {
   const { t } = useTranslation()
@@ -15,19 +13,34 @@ export default function DateGate({ onUnlock }: Props) {
   const [error, setError] = useState<string | null>(null)
   const inputId = useId()
 
-  useEffect(() => {
-    const unlocked = store.getSession<boolean>('unlocked')
-    if (unlocked) onUnlock()
-  }, [onUnlock])
+  const handleUnlock = () => {
+    onUnlock()
+  }
+
+  const formatInput = (raw: string) => {
+    const digits = raw.replace(/\D/g, '').slice(0, 8)
+    if (digits.length <= 2) return digits
+    if (digits.length <= 4) return `${digits.slice(0, 2)}/${digits.slice(2)}`
+    return `${digits.slice(0, 2)}/${digits.slice(2, 4)}/${digits.slice(4)}`
+  }
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault()
     setError(null)
     if (ds.isCorrectAnniversary(value)) {
-      store.setSession('unlocked', true)
-      onUnlock()
+      handleUnlock()
     } else {
       setError(t('wrongDate'))
+    }
+  }
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const formatted = formatInput(e.target.value)
+    setValue(formatted)
+    setError(null)
+
+    if (formatted.length === 10 && ds.isCorrectAnniversary(formatted)) {
+      handleUnlock()
     }
   }
 
@@ -49,7 +62,7 @@ export default function DateGate({ onUnlock }: Props) {
           aria-describedby={error ? inputId + '-err' : undefined}
           className="w-full rounded-xl border px-4 py-3 focus:outline-none focus:ring-2 focus:ring-rose-400"
           value={value}
-          onChange={(e) => setValue(e.target.value)}
+          onChange={handleChange}
           pattern="^([0-3]\d)/(0\d|1[0-2])/(\d{4})$"
           required
         />

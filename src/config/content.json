@@ -3,52 +3,58 @@
     "you": "Esteban",
     "her": "Mi Blanquita Hermosa"
   },
-  "welcomeMessage": "Bienvenida a nuestro rinc\u00f3n \ud83d\udc96",
+  "welcomeMessage": "Bienvenida a nuestro rincón 💖",
   "story": [
     {
       "date": "2023-03-08",
-      "text": "Nuestro d\u00eda especial."
+      "text": "Nuestro día especial."
     }
   ],
   "photos": [
     {
       "id": "ph1",
-      "src": "/media/photos/foto1.heic",
+      "src": "/media/photos/foto1.jpg",
+      "thumb": "/media/photos/foto1.jpg",
       "alt": "Tu sonrisa favorita",
       "title": "Tu sonrisa favorita",
       "description": "Ese brillo que solo aparece cuando estamos juntos."
     },
     {
       "id": "ph2",
-      "src": "/media/photos/foto2.heic",
+      "src": "/media/photos/foto2.jpg",
+      "thumb": "/media/photos/foto2.jpg",
       "alt": "Abrazo en la ciudad",
       "title": "Abrazo en la ciudad",
       "description": "Un abrazo tuyo lo calma todo; incluso el ruido del mundo."
     },
     {
       "id": "ph3",
-      "src": "/media/photos/foto3.heic",
+      "src": "/media/photos/foto3.jpg",
+      "thumb": "/media/photos/foto3.jpg",
       "alt": "Atardecer frente al mar",
       "title": "Atardecer frente al mar",
       "description": "La luz del atardecer se queda corta junto a tu mirada."
     },
     {
       "id": "ph4",
-      "src": "/media/photos/foto4.heic",
+      "src": "/media/photos/foto4.jpg",
+      "thumb": "/media/photos/foto4.jpg",
       "alt": "Caminata entre luces",
       "title": "Caminata entre luces",
       "description": "Pasito a pasito, siempre hacia adelante de tu mano."
     },
     {
       "id": "ph5",
-      "src": "/media/photos/foto5.heic",
+      "src": "/media/photos/foto5.jpg",
+      "thumb": "/media/photos/foto5.jpg",
       "alt": "Brindis por nosotros",
       "title": "Brindis por nosotros",
-      "description": "Celebrar la vida contigo es mi tradici\u00f3n favorita."
+      "description": "Celebrar la vida contigo es mi tradición favorita."
     },
     {
       "id": "ph6",
       "src": "/media/photos/foto6.jpg",
+      "thumb": "/media/photos/foto6.jpg",
       "alt": "Beso robado",
       "title": "Beso robado",
       "description": "El mundo se detiene cada vez que te beso."
@@ -57,38 +63,38 @@
   "photoCarousel": [
     {
       "id": "ph1",
-      "src": "/media/photos/foto1.heic",
+      "src": "/media/photos/foto1.jpg",
       "alt": "Tu sonrisa favorita",
       "title": "Tu sonrisa favorita",
       "description": "Ese brillo que solo aparece cuando estamos juntos."
     },
     {
       "id": "ph2",
-      "src": "/media/photos/foto2.heic",
+      "src": "/media/photos/foto2.jpg",
       "alt": "Abrazo en la ciudad",
       "title": "Abrazo en la ciudad",
       "description": "Un abrazo tuyo lo calma todo; incluso el ruido del mundo."
     },
     {
       "id": "ph3",
-      "src": "/media/photos/foto3.heic",
+      "src": "/media/photos/foto3.jpg",
       "alt": "Atardecer frente al mar",
       "title": "Atardecer frente al mar",
       "description": "La luz del atardecer se queda corta junto a tu mirada."
     },
     {
       "id": "ph4",
-      "src": "/media/photos/foto4.heic",
+      "src": "/media/photos/foto4.jpg",
       "alt": "Caminata entre luces",
       "title": "Caminata entre luces",
       "description": "Pasito a pasito, siempre hacia adelante de tu mano."
     },
     {
       "id": "ph5",
-      "src": "/media/photos/foto5.heic",
+      "src": "/media/photos/foto5.jpg",
       "alt": "Brindis por nosotros",
       "title": "Brindis por nosotros",
-      "description": "Celebrar la vida contigo es mi tradici\u00f3n favorita."
+      "description": "Celebrar la vida contigo es mi tradición favorita."
     },
     {
       "id": "ph6",
@@ -107,6 +113,28 @@
     }
   ],
   "poems": [
-    "Aqu\u00ed puedes escribir tus palabras para ella..."
+    "Aquí puedes escribir tus palabras para ella..."
+  ],
+  "loveMessages": [
+    "Amarte es descubrir que el infinito cabe en un abrazo.",
+    "Tu alma y la mía se reconocieron antes de que nuestras miradas se cruzaran.",
+    "No eres parte de mi vida, eres mi vida en todas sus partes.",
+    "El amor no se dice, se demuestra… y tú lo haces cada día.",
+    "Contigo aprendí que el hogar no es un lugar, es una persona.",
+    "Eres el verso que le faltaba a mi poema favorito.",
+    "Nos encontramos como dos estrellas que sabían que debían brillar juntas.",
+    "Tu amor es el color que le faltaba a mi mundo en blanco y negro.",
+    "Somos dos notas que suenan mejor cuando están en la misma melodía.",
+    "Cada beso tuyo es una pincelada en el lienzo de mi alma.",
+    "Me haces sentir que todo está bien, incluso cuando no lo está.",
+    "Tu risa es mi canción favorita.",
+    "No necesito promesas, solo tus manos entre las mías.",
+    "Eres mi lugar seguro en un mundo que a veces se tambalea.",
+    "Amarte es fácil, como respirar, como soñar despierto.",
+    "Tu piel tiene el mapa de todos mis deseos.",
+    "Nos miramos y el mundo se detiene… solo para vernos amar.",
+    "Eres fuego, y yo aprendí a arder contigo.",
+    "Cada caricia tuya es un poema que mi cuerpo memoriza.",
+    "Nuestro amor no tiene límites, solo ganas de seguir creciendo."
   ]
 }
