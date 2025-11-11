@@ -20,10 +20,13 @@ export default function SurpriseButton({ effect, label }: Props) {
   return (
     <div ref={containerRef} className="relative">
       <motion.button
-        whileTap={{ scale: 0.97 }}
-        whileHover={{ scale: 1.03 }}
+        whileTap={{ scale: 0.95 }}
+        whileHover={{ scale: 1.08 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4 }}
         onClick={onClick}
-        className="rounded-2xl bg-rose-600 text-white px-6 py-3 shadow hover:bg-rose-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-black"
+        className="rounded-2xl bg-rose-600 text-white px-8 py-3 shadow-lg hover:shadow-2xl hover:bg-rose-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-black font-semibold transition-all duration-200"
       >
         {label}
       </motion.button>
