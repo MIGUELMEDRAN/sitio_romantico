@@ -13,50 +13,89 @@
   "photos": [
     {
       "id": "ph1",
-      "src": "/media/photos/PHOTO_1.jpg",
-      "thumb": "/media/photos/thumbs/PHOTO_1.jpg",
-      "title": "Recuerdos juntos",
-      "description": "Peque\u00f1os momentos que nos hacen sonre\u00edr"
+      "src": "/media/photos/foto1.heic",
+      "alt": "Tu sonrisa favorita",
+      "title": "Tu sonrisa favorita",
+      "description": "Ese brillo que solo aparece cuando estamos juntos."
     },
     {
       "id": "ph2",
-      "src": "/media/photos/PHOTO_2.jpg",
-      "thumb": "/media/photos/thumbs/PHOTO_2.jpg",
-      "title": "Entre risas y silencios",
-      "description": "Tu abrazo tiene el poder de calmar tormentas y encender estrellas en mi cielo"
+      "src": "/media/photos/foto2.heic",
+      "alt": "Abrazo en la ciudad",
+      "title": "Abrazo en la ciudad",
+      "description": "Un abrazo tuyo lo calma todo; incluso el ruido del mundo."
     },
     {
       "id": "ph3",
-      "src": "/media/photos/PHOTO_3.jpg",
-      "thumb": "/media/photos/thumbs/PHOTO_3.jpg",
-      "title": "Sin miedo a ser nosotros",
-      "description": "No hay pose m\u00e1s perfecta que la de ser nosotros, reales y felices."
+      "src": "/media/photos/foto3.heic",
+      "alt": "Atardecer frente al mar",
+      "title": "Atardecer frente al mar",
+      "description": "La luz del atardecer se queda corta junto a tu mirada."
+    },
+    {
+      "id": "ph4",
+      "src": "/media/photos/foto4.heic",
+      "alt": "Caminata entre luces",
+      "title": "Caminata entre luces",
+      "description": "Pasito a pasito, siempre hacia adelante de tu mano."
+    },
+    {
+      "id": "ph5",
+      "src": "/media/photos/foto5.heic",
+      "alt": "Brindis por nosotros",
+      "title": "Brindis por nosotros",
+      "description": "Celebrar la vida contigo es mi tradici\u00f3n favorita."
+    },
+    {
+      "id": "ph6",
+      "src": "/media/photos/foto6.jpg",
+      "alt": "Beso robado",
+      "title": "Beso robado",
+      "description": "El mundo se detiene cada vez que te beso."
     }
   ],
   "photoCarousel": [
     {
       "id": "ph1",
-      "src": "/media/photos/PHOTO_1.jpg",
-      "alt": "Amarte no es un instante, es un viaje sin destino donde cada latido escribe eternidad.",
-      "thumb": "/media/photos/thumbs/PHOTO_1.jpg",
-      "title": "Recuerdos juntos",
-      "description": "Peque\u00f1os momentos que nos hacen sonre\u00edr"
+      "src": "/media/photos/foto1.heic",
+      "alt": "Tu sonrisa favorita",
+      "title": "Tu sonrisa favorita",
+      "description": "Ese brillo que solo aparece cuando estamos juntos."
     },
     {
       "id": "ph2",
-      "src": "/media/photos/PHOTO_2.jpg",
-      "alt": "Lo que somos, lo que seremos",
-      "thumb": "/media/photos/thumbs/PHOTO_2.jpg",
-      "title": "Tu t\u00edtulo para Grid 2",
-      "description": "Tu descripci\u00f3n para Grid 2"
+      "src": "/media/photos/foto2.heic",
+      "alt": "Abrazo en la ciudad",
+      "title": "Abrazo en la ciudad",
+      "description": "Un abrazo tuyo lo calma todo; incluso el ruido del mundo."
     },
     {
       "id": "ph3",
-      "src": "/media/photos/PHOTO_3.jpg",
-      "alt": "Nuestro amor, sin filtros",
-      "thumb": "/media/photos/thumbs/PHOTO_3.jpg",
-      "title": "Sin miedo a ser nosotros",
-      "description": "No hay pose m\u00e1s perfecta que la de ser nosotros, reales y felices."
+      "src": "/media/photos/foto3.heic",
+      "alt": "Atardecer frente al mar",
+      "title": "Atardecer frente al mar",
+      "description": "La luz del atardecer se queda corta junto a tu mirada."
+    },
+    {
+      "id": "ph4",
+      "src": "/media/photos/foto4.heic",
+      "alt": "Caminata entre luces",
+      "title": "Caminata entre luces",
+      "description": "Pasito a pasito, siempre hacia adelante de tu mano."
+    },
+    {
+      "id": "ph5",
+      "src": "/media/photos/foto5.heic",
+      "alt": "Brindis por nosotros",
+      "title": "Brindis por nosotros",
+      "description": "Celebrar la vida contigo es mi tradici\u00f3n favorita."
+    },
+    {
+      "id": "ph6",
+      "src": "/media/photos/foto6.jpg",
+      "alt": "Beso robado",
+      "title": "Beso robado",
+      "description": "El mundo se detiene cada vez que te beso."
     }
   ],
   "videos": [
