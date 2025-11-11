@@ -11,9 +11,9 @@ type Moment = {
 const placeholder = `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%' height='100%' fill='%23e5e7eb'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='Arial' font-size='24'>Sin imagen</text></svg>`
 
 const momentos: Moment[] = [
-  { id: 1, titulo: 'Donde empieza el amor verdddadero', texto: 'No somos perfectos, pero juntos somos magia. Cada mirada tuya es mi hogar.', img: '/media/foto1.jpg' },
-  { id: 2, titulo: 'Entre risas y silencios', texto: 'Tu abrazo tiene el poder de calmar tormentas y encender estrellas en mi cielo.', img: '/media/foto2.jpg' },
-  { id: 3, titulo: 'Nuestro amor, sin filtros', texto: 'No hay pose mas perfecta que la de ser nosotros, reales, felices y juntos.', img: '/media/foto3.jpg' }
+  { id: 1, titulo: 'Donde empieza el amor verdddadero', texto: 'No somos perfectos, pero juntos somos magia. Cada mirada tuya es mi hogar.', img: 'media/foto1.jpg' },
+  { id: 2, titulo: 'Entre risas y silencios', texto: 'Tu abrazo tiene el poder de calmar tormentas y encender estrellas en mi cielo.', img: 'media/foto2.jpg' },
+  { id: 3, titulo: 'Nuestro amor, sin filtros', texto: 'No hay pose mas perfecta que la de ser nosotros, reales, felices y juntos.', img: 'media/foto3.jpg' }
 ]
 
 
