@@ -93,7 +93,7 @@ export default function PhotoGrid() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{p.alt}</h3>
                   <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                    Un momento especial capturado en el tieddmpo.
+                    Cada instante contigo es una página de nuestro amor, escrita con miradas, risas y abrazos.
                   </p>
 
                   {/* Botones */}
