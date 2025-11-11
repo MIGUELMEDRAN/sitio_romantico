@@ -61,27 +61,41 @@ export default function PhotoGrid() {
     <section className="container mx-auto px-6 py-16">
       <h2 className="text-3xl font-semibold mb-12 text-center">Nuestros Momentos</h2>
       
-      {/* Tres grids lado a lado (cada columna muestra las mismas cards) */}
+      {/* Tres columnas independientes: cada una renderiza la foto en su posición */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {[0, 1, 2].map((col) => (
-          <div key={col} className="grid grid-cols-1 gap-8">
-            {photos.map((p, i) => (
+        {[0, 1, 2].map((colIndex) => {
+          const photo = photos[colIndex]
+          if (!photo) {
+            return (
+              <div key={colIndex} className="bg-white rounded-2xl shadow-2xl p-6 text-center text-gray-400">
+                Sin foto asignada
+              </div>
+            )
+          }
+          const meta = (photo as any)
+          return (
+            <div key={photo.id}>
+              {meta.title && (
+                <div className="bg-white/60 p-4 rounded-xl shadow-sm text-center mb-4">
+                  <h4 className="text-lg font-semibold">{meta.title}</h4>
+                  {meta.description && <p className="text-sm text-gray-600 mt-1">{meta.description}</p>}
+                </div>
+              )}
               <motion.div
-                key={`${col}-${p.id}`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
+                transition={{ duration: 0.5 }}
                 className="bg-white rounded-2xl shadow-2xl overflow-hidden hover:shadow-3xl transition-shadow duration-300"
               >
                 {/* Imagen */}
                 <div className="relative overflow-hidden h-64 bg-gray-200">
                   <motion.button
-                    onClick={(e) => { openAt(i); spawnButterflies(e) }}
+                    onClick={(e) => { openAt(colIndex); spawnButterflies(e) }}
                     className="w-full h-full group"
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <img src={p.thumb || p.src} alt={p.alt} loading="lazy" decoding="async"
+                    <img src={photo.thumb || photo.src} alt={photo.alt} loading="lazy" decoding="async"
                       className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                       <span className="text-white text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Ver foto</span>
@@ -91,7 +105,7 @@ export default function PhotoGrid() {
 
                 {/* Contenido */}
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">{p.alt}</h3>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">{photo.alt}</h3>
                   <p className="text-gray-600 text-sm mb-4 line-clamp-2">
                     Cada instante contigo es una página de nuestro amor, escrita con miradas, risas y abrazos.
                   </p>
@@ -125,9 +139,9 @@ export default function PhotoGrid() {
                   </div>
                 </div>
               </motion.div>
-            ))}
-          </div>
-        ))}
+            </div>
+          )
+        })}
       </div>
 
       {/* Sección tipo carta: mostrar mensaje solo lectura y centrado */}

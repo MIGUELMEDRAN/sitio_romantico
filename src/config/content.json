@@ -1,7 +1,7 @@
 {
   "names": {
-    "you": "TU_NOMBRE",
-    "her": "SU_NOMBRE"
+    "you": "Esteban",
+    "her": "Mi Blanquita Hermosa"
   },
   "welcomeMessage": "Bienvenida a nuestro rinc\u00f3n \ud83d\udc96",
   "story": [
@@ -14,9 +14,22 @@
     {
       "id": "ph1",
       "src": "/media/photos/PHOTO_1.jpg",
-      "alt": "Descripci\u00f3n de la foto 1",
-      "thumb": "/media/photos/thumbs/PHOTO_1.jpg"
-    }
+      "alt": "Donde empieza el amor verdadero",
+      "thumb": "/media/photos/thumbs/PHOTO_1.jpg",
+      "title": "Recuerdos juntos",
+      "description": "Pequeños momentos que nos hacen sonreír"
+    },
+    {
+  "id": "ph2",
+  "src": "/media/photos/PHOTO_2.jpg",
+  "alt": "Descripción de la foto",
+  "thumb": "/media/photos/thumbs/PHOTO_2.jpg",
+  "title": "Tu título para Grid 2",
+  "description": "Tu descripción para Grid 2"
+}
+
+
+
   ],
   "videos": [
     {
