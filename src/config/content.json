@@ -1,0 +1,32 @@
+{
+  "names": {
+    "you": "TU_NOMBRE",
+    "her": "SU_NOMBRE"
+  },
+  "welcomeMessage": "Bienvenida a nuestro rinc\u00f3n \ud83d\udc96",
+  "story": [
+    {
+      "date": "2023-03-08",
+      "text": "Nuestro d\u00eda especial."
+    }
+  ],
+  "photos": [
+    {
+      "id": "ph1",
+      "src": "/media/photos/PHOTO_1.jpg",
+      "alt": "Descripci\u00f3n de la foto 1",
+      "thumb": "/media/photos/thumbs/PHOTO_1.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid1",
+      "src": "/media/videos/VIDEO_1.mp4",
+      "poster": "/media/videos/VIDEO_1.jpg",
+      "title": "Video especial 1"
+    }
+  ],
+  "poems": [
+    "Aqu\u00ed puedes escribir tus palabras para ella..."
+  ]
+}

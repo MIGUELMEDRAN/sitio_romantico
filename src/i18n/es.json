@@ -1,0 +1,15 @@
+{
+  "welcome": "Bienvenida, {{name}}",
+  "dateLabel": "Ingresa la fecha de nuestro aniversario (DD/MM/AAAA)",
+  "unlock": "Desbloquear",
+  "wrongDate": "Uy, esa no es la fecha. \u00a1Int\u00e9ntalo de nuevo!",
+  "ourStory": "Nuestra historia",
+  "specialMoments": "Momentos especiales",
+  "wordsForHer": "Palabras para ella",
+  "surprises": "Sorpresas",
+  "butterflies": "Mariposas",
+  "roses": "Rosas",
+  "video": "Video",
+  "lightTheme": "Claro",
+  "darkTheme": "Oscuro"
+}

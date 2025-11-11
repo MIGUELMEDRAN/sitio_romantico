@@ -1,0 +1,15 @@
+{
+  "welcome": "Welcome, {{name}}",
+  "dateLabel": "Enter our anniversary date (DD/MM/YYYY)",
+  "unlock": "Unlock",
+  "wrongDate": "Oops, not the date. Try again!",
+  "ourStory": "Our story",
+  "specialMoments": "Special moments",
+  "wordsForHer": "Words for her",
+  "surprises": "Surprises",
+  "butterflies": "Butterflies",
+  "roses": "Roses",
+  "video": "Video",
+  "lightTheme": "Light",
+  "darkTheme": "Dark"
+}
